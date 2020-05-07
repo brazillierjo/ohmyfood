@@ -1,0 +1,107 @@
+@media all and (max-width: 840px) {
+  /* **************************** style page acceuil ************ */
+  .container {
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .menu_1,
+  .menu_2,
+  .menu_3,
+  .menu_4 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .menu_1:hover,
+  .menu_2:hover,
+  .menu_3:hover,
+  .menu_4:hover {
+    transform: none;
+    opacity: 0.8;
+  }
+
+  .carte_noteenchantee,
+  .carte_palettedugout,
+  .carte_delicepapilles,
+  .carte_chic {
+    width: 85%;
+    height: auto;
+  }
+
+  .carte_noteenchantee {
+    padding-top: 0;
+  }
+
+  .btn-prochainement {
+    width: 300px;
+    height: 60px;
+    font-size: 1.8em;
+  }
+
+  .btn-prochainement span {
+    position: absolute;
+    display: inline-flex;
+    justify-content: center;
+  }
+  /***************************************************/
+
+  /* *************** style cartes  ******************* */
+  .menu_1-rightline,
+  .menu_1-leftline {
+    width: 20%;
+    height: 7px;
+  }
+
+  .menu_1-leftline {
+    margin-left: 20px;
+  }
+
+  .menu_1-rightline {
+    margin-right: 20px;
+  }
+
+  .fas {
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+  .titre-plat {
+    font-size: 1.4em;
+  }
+
+  section {
+    padding-right: 0;
+    padding-left: 0;
+    font-size: 16px;
+  }
+
+  li {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .logo-ohmyfood:hover {
+    transform: none;
+  }
+  /* ********************************************* */
+
+  /****************** style footer ******************/
+  .mentions_legales {
+    align-items: center;
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  .contact {
+    text-align: center;
+    font-size: 1.5em;
+  }
+  /***************************************************/
+}
